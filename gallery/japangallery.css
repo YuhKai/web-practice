@@ -1,0 +1,20 @@
+.image{
+ object-fit: fill;
+ 
+ height: 300px !important ;   /* important 覆蓋height */
+	 width: 100%;
+}
+body{
+	padding-top: 70px;
+}
+.jumbotron{
+	color: #2c3e50;
+	background:#ecf0f1; 
+}
+.navbar{
+	background: #2c3e50;
+}
+a{           /* .navbar-inverse .navbar-brand 跟.navbar-inverse .navbar-nav > li > a
+	              可以利用檢查來查看元素 */
+	color: white !important;    
+}
